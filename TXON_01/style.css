@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: content-box ;
+     font-family: "Poppins", sans-serif;
+         }
+section{
+    
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url(unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    position: relative;
+    top:0;
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    image-orientation: initial;
+}
+header .navigation a{
+    
+    color:black;
+    background-color: antiquewhite;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: 0.5s;
+    transition-property: background-color;
+}
+header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+header .navigation a:hover{
+    background-color:rgb(171, 225, 235);
+}
+header .logo{
+    text-decoration: underline;
+
+ font-weight: 700;
+ margin-left: 0px;
+ 
+ }
+.logo img{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+ 
+ .btn1 {
+    width: 100px;
+    height: 40px;
+    margin-left: 1250px;
+    margin-top: auto;
+    text-decoration: underline;
+    text-align:center;
+    border: 2px;
+    border-color: black;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    font-weight: 900;
+    padding: 20px 30px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    transition-property: background-color;
+  }
+  
+ .btn1:hover{
+    background-color:rgb(171, 225, 235);
+    
+ }
+ .icons{
+    display: flex;
+    margin-left: 650px;
+    margin-top: 290px;
+    margin-bottom: 10px;
+ }
+    
+  .icons a{
+    position: relative;
+     color:black;
+    font-size: 40px;
+    transition-property: transform;
+ }
+ .icons a:not(:last-child){
+    margin-right:60px;
+ }
+ .icons a:hover{
+    transform: scale(1.5);
+    
+}
+.highlights{
+    direction: rtl;
+    font-size: 25px;
+    font-style: italic;
+    background-color:antiquewhite;
+    color: black;
+    
+}
+
+
